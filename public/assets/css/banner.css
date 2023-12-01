@@ -1,0 +1,102 @@
+section.welcome-banner .modal-content {
+  background: #2a356d !important;
+}
+
+section.welcome-banner .modal-header {
+  border: none;
+}
+section.welcome-banner .custom-banner {
+  text-align: center;
+}
+section.welcome-banner .custom-banner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  color: var(--global-background-color);
+  text-shadow: 0px 5px 10px rgb(0 0 0 / 25%);
+}
+
+section.welcome-banner .custom-banner h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  text-shadow: 0px 5px 10px rgb(0 0 0 / 25%);
+  color: #fff;
+}
+section.welcome-banner .custom-banner h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--global-background-color);
+}
+section.welcome-banner .custom-banner p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #fff;
+}
+section.welcome-banner .custom-banner a {
+  background: var(--global-background-color);
+  color: #fff;
+  font-size: 22px;
+  height: 53px;
+  display: block;
+  line-height: 53px;
+  max-width: 308px;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-weight: 700;
+  border: 2px solid transparent;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 14%);
+  transition: 0.3s all ease-in-out;
+  z-index: 15;
+}
+section.welcome-banner .custom-banner a:hover {
+  background: transparent;
+  border: 2px solid var(--global-background-color);
+  color: var(--global-background-color);
+}
+section.welcome-banner .modal-header img {
+  max-width: 15%;
+  animation-name: discount;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes discount {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+section.welcome-banner .modal-header a {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: var(--global-background-color);
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.welcome-banner .modal-header {
+  padding: 1rem 1rem 0 1rem;
+}
+
+div.modal.fade.show {
+  padding: 0;
+}

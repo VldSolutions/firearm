@@ -1,0 +1,656 @@
+@font-face {
+    font-family: Lemon Milk;
+    src: url(/assets/fonts/lemon_milk/LEMONMILK-Medium.otf);
+}
+
+@font-face {
+    font-family: Dead Wood;
+    src: url(/assets/fonts/dead_wood/dead_wood.otf);
+}
+
+@font-face {
+    font-family: Wallaxe;
+    src: url(/assets/fonts/wallaxe/wallaxe.ttf);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    /* font-family: 'Bowlby One SC', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: 'Vanilla Ravioli', sans-serif; */
+    font-family: 'Wallaxe', serif;
+}
+
+a.themebtn {
+    background-image: url(/assets/images/menulinks.png);
+    font-size: 20px;
+    background-position: center;
+    background-size: contain;
+    padding: 5px 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    font-family: 'Wallaxe', serif;
+}
+
+a.themebtn:hover {
+    color: #000;
+}
+
+.right-section h1,
+.left-section h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--global-color);
+    font-size: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* height: 200%; */
+    height: auto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 0;
+
+    font-size: 15px;
+    margin-bottom: 0;
+    font-family: "Agbalumo", sans-serif;
+    text-transform: uppercase;
+}
+
+:root {
+    --global-color: #000;
+    --global-text-accent: #3aa143;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-image: url(/assets/images/body.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-inner .carousel-caption h5 {
+    font-size: 92px;
+}
+
+.carousel-caption {
+    top: 27%;
+}
+
+.carousel-caption p a {
+    padding: 12px 35px;
+}
+
+section.home-2 {
+    margin-top: -5%;
+    z-index: 999;
+    /* display: block; */
+    position: relative;
+}
+
+section.home-2 .container {
+    background-image: url(/assets/images/innerMenu.png);
+    background-size: cover;
+    background-position: center;
+    padding: 18px 0;
+
+
+}
+
+section.home-2 a {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Dead Wood', serif;
+    color: #000;
+
+}
+
+section.home-3 {
+    padding: 100px 0;
+}
+
+section.home-3 .container {
+    /* background-image: url(/assets/images/tiger.png);
+    background-size: contain;
+    background-position: center;
+    padding: 175px 0;
+    margin-top: 3%; */
+    border: 4px solid black;
+    background-size: contain;
+    border-radius: 30px;
+    background-position: center;
+    padding: 35px 0;
+    background-repeat: no-repeat;
+    border-top: 0;
+}
+
+section.home-3 .left-section * {
+    font-family: 'Wallaxe', serif;
+
+}
+
+section.home-3 .left-section h1 {
+    font-size: 36px;
+}
+
+section.home-3 .left-section p {
+    font-family: 'Agbalumo', serif;
+}
+
+section.home-4 .container {
+    /* background-image: url(/assets/images/classified4.png); */
+    border: 4px solid black;
+    background-size: contain;
+    border-radius: 30px;
+    background-position: center;
+    padding: 35px 0;
+    background-repeat: no-repeat;
+    border-top: 0;
+}
+
+/* section.home-4 .container::before {
+    content: '';
+    background-image: url(/assets/images/classified_heading.png);
+
+} */
+
+section.home-4 .owl-nav button {
+    position: absolute;
+    top: 35%;
+    font-size: 50px;
+}
+
+
+section.home-4 .owl-nav button.owl-prev {
+    left: 0%;
+    font-size: 75px;
+}
+
+section.home-4 .owl-nav button.owl-next {
+    right: 0%;
+    font-size: 75px;
+}
+
+section.home-4 .our-services * {
+    color: #000;
+}
+
+section.home-4 .our-services h1 {
+    font-size: 20px;
+}
+
+/* section.home-4 .our-services .btns a {
+    background: #E4CBA7;
+    color: #000;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Wallaxe', serif;
+}
+
+section.home-4 .our-services .btns a:nth-child(1) {
+    margin-right: 15px;
+} */
+
+section.home-4 .our-services .item {
+    padding: 25px;
+    border: 2px solid #97765A;
+    border-radius: 25px;
+
+}
+
+section.home-4 .container .row.mx-auto.top {
+    margin-top: 100px;
+}
+
+section.home-4 .iconsSection * {
+    color: #000;
+}
+
+section.home-4 .iconsSection h1 {
+    font-family: 'Wallaxe', serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+section.home-4 .iconsSection h2 {
+    font-size: 20px;
+    font-family: 'Agbalumo', serif;
+}
+
+/* section.home-4 .iconsSection .btns a {
+    background: #E4CBA7;
+    color: #000;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Wallaxe', serif;
+}
+
+section.home-4 .iconsSection .btns a:nth-child(1) {
+    margin-right: 15px;
+} */
+
+section.home-4 .iconsSection .item {
+    padding: 25px;
+    border: 2px solid #97765A;
+    border-radius: 25px;
+
+}
+
+section.home-4 {
+    padding: 50px 0;
+}
+
+section.home-4 .container .imgdiv img,
+section.home-3 .container .imgdiv img {
+    width: 70%;
+    position: relative;
+    margin-top: -8%;
+
+}
+
+section.home-4 .our-services h1 {
+    font-family: 'Wallaxe', serif;
+    margin-bottom: 0;
+}
+
+section.home-4 .our-services h2 {
+    font-family: 'Agbalumo', serif;
+    font-size: 20px;
+    /* margin-bottom: 0; */
+
+}
+
+section.home-4 .iconsSection .owl-nav button.owl-prev,
+section.home-4 .iconsSection .owl-nav button.owl-next {
+    top: 20%;
+}
+
+section.home-4.blogs .item {
+    padding: 15px;
+    border: 2px solid #97765A;
+    border-radius: 25px;
+    /* border-top-right-radius: 0; */
+
+}
+
+section.home-4.blogs .item img {
+    border-radius: 20px;
+}
+
+section.home-4.blogs .blogsone h1,
+section.home-4.blogs .blogsone h2,
+section.home-4.blogs .blogstwo h1,
+section.home-4.blogs .blogstwo h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+
+section.home-4.blogs .blogsone .blogsoneIcon ul,
+section.home-4.blogs .blogstwo .blogsoneIcon ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.home-4.blogs .blogsone .blogsoneIcon ul li,
+section.home-4.blogs .blogstwo .blogsoneIcon ul li {
+    list-style: none;
+}
+
+section.home-4.blogs .blogsthree h1 {
+    font-size: 23px;
+    text-align: center;
+}
+
+section.home-4.blogs .inner img {
+    max-width: 100%;
+}
+
+footer {
+    border-top: 3px dashed #000;
+    padding: 50px 0 50px 0;
+}
+
+footer p {
+    font-size: 24px;
+    font-family: 'Wallaxe', serif;
+}
+
+
+section.home-4.triggertalk .main-section {
+    /* border: 4px solid; */
+    /* border: 4px solid black; */
+    /* background-size: contain; */
+    border-radius: 30px;
+}
+
+section.home-4.triggertalk .main-section .left-section {
+    position: relative;
+}
+
+section.home-4.triggertalk .main-section .left-section input[type="search"] {
+    border: 1px solid;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    padding: 20px 50px;
+    width: 100%;
+}
+
+section.home-4.triggertalk .main-section .left-section i {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+section.home-4.triggertalk .main-section .main-section a {
+    color: #000;
+    margin-left: 15px;
+}
+
+section.home-4.triggertalk .main-section .main-section span {
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 35px;
+}
+
+section.home-4.triggertalk .main-section .main-card {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 25px;
+    /* margin-top: 25px; */
+}
+
+section.home-4.triggertalk .main-section .main-card .d-flex p {
+    font-family: 'poppins', serif;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+section.home-4.triggertalk .main-section .main-card p {
+    font-family: 'poppins', serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* section.home-4.triggertalk .main-section .main-card img{
+
+} */
+
+section.classified-1 .left-section h5 {
+    font-size: 120px;
+}
+
+section.classified-1 .left-section,
+section.classified-1 .right-section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.home-3.classifieds .left-section {
+    position: relative;
+}
+
+section.home-3.classifieds .first {
+    margin-top: -65px;
+}
+
+section.home-3.classifieds .first .left-section img {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 25px;
+}
+
+section.home-3.classifieds .first .left-section input {
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 20px 50px;
+    outline: none;
+    color: #000;
+
+
+}
+
+section.home-3.classifieds .right-section button {
+    font-size: 24px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 14px 50px;
+    outline: none;
+    width: 100%;
+    font-family: 'Wallaxe', serif;
+}
+
+section.home-3.classifieds .left-section ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px 0;
+}
+
+section.home-3.classifieds .left-section ul li {
+    font-size: 24px;
+}
+
+section.home-3.classifieds .card-main {
+    margin-top: 25px;
+    border: 2px solid #97765A;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+section.home-3.classifieds .card-main img {
+
+    width: 100%;
+}
+
+section.home-3.classifieds .card-main h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+section.home-3.classifieds .card-main p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+section.home-3.classifieds .card-main strong {
+    text-align: center;
+    display: block;
+    font-size: 28px;
+    font-family: 'Agbalumo', serif;
+    margin-bottom: 10px;
+}
+
+section.home-3.classifieds .card-footer-main a {
+    padding: 5px 5px;
+    margin: 2px;
+}
+
+section.home-3.classifieds .main-section-pagination {
+    height: 100%;
+}
+
+section.home-3.classifieds .main-section-pagination ul {
+    list-style: none;
+    margin-bottom: 0;
+    height: 100%;
+    padding-left: 0;
+}
+
+section.home-3.triggershow .card-main .inner img {
+    padding: 0;
+}
+
+section.home-3.triggershow .card-main .avatar h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+section.home-3.triggershow .card-main .avatar h3 {
+    font-size: 12px;
+    font-family: 'Agbalumo', serif;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+section.home-3.triggershow .card-main {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #44270C;
+
+}
+
+section.home-3.triggershow .card-main a.themebtn {
+    padding: 5px 15px;
+}
+
+section.home-3.triggershow .card-main .col-md-5 {
+    padding: 0;
+}
+
+section.home-3.triggertalk .left-section-new {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 25px;
+    /* margin-top: 35px; */
+}
+
+section.home-3.triggertalk .left-section-new span {
+    border: 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+section.home-3.triggertalk .left-section-new span a {
+    color: #000;
+    font-family: 'Wallaxe', serif;
+    font-size: 20px;
+}
+
+
+section.home-3.triggertalk .left-section-new img {
+    margin-right: 5px;
+}
+
+section.home-3.triggertalk .innersection .card {
+    border: 2px solid;
+    background: transparent;
+    border-radius: 25px;
+    padding: 25px;
+    position: relative;
+}
+
+section.home-3.triggertalk .innersection .card h1 {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+section.home-3.triggertalk .innersection p {
+    font-family: 'Wallaxe', serif;
+    font-size: 20px;
+}
+
+section.home-3.triggertalk .innersection .card .cardfooter {
+    margin: 20px 0 0 0;
+}
+
+section.home-3.triggertalk .innersection .card .cardfooter ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    /* position: relative; */
+
+}
+
+section.home-3.triggertalk .innersection .card .cardfooter ul li {
+    list-style: none;
+}
+
+section.home-3.triggertalk .innersection .card .cardfooter ul li i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+section.home-3.triggertalk .innersection .card .cardfooter ul li a {
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Wallaxe', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.home-3.triggertalk .innersection .card .cardfooter img {
+    position: absolute;
+    left: 90px;
+    right: 0;
+    top: 7px;
+}

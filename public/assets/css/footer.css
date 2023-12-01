@@ -1,0 +1,179 @@
+section.footer-above-form {
+    background: #031640;
+    width: 100%;
+    padding: 4em 0 3em 0;
+    border-top: 10px solid #b91111;
+    border-bottom: 1px solid #1d262e;
+    color: #fff;
+}
+
+section.footer-above-form .contact-header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 53px;
+}
+
+section.footer-above-form .contact-header h2 span {
+    color: #b91111;
+}
+section.footer-above-form .contact-header p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+}
+
+section.footer-above-form .contact-footer-form form .fields input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 46px;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    padding: 5px 10px;
+    background: #153374;
+    color: #fff;
+}
+section.footer-above-form .contact-footer-form form .fields input::placeholder {
+    color: #fff;
+}
+section.footer-above-form .contact-footer-form form .fields textarea {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 170px;
+    resize: none;
+    padding: 5px 10px;
+    background: #153374;
+}
+section.footer-above-form
+    .contact-footer-form
+    form
+    .fields
+    textarea::placeholder {
+    color: #fff;
+}
+section.footer-above-form
+    .contact-footer-form
+    form
+    .fields
+    input[type="submit"] {
+    background: #bb2929;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+section.footer-above-form
+    .contact-footer-form
+    form
+    .fields
+    input[type="submit"]:hover {
+    background: transparent;
+    border: 2px solid #bb2929;
+}
+footer {
+    background: #030c1e;
+    padding: 4em 0 1em;
+    border-bottom: 1px solid #1d262e;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer .footer-first-inner li {
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 25px;
+}
+footer .footer-first-inner li a {
+    color: #8a929a;
+    font-size: 15px;
+    position: relative;
+    transition: 0.3s;
+}
+
+footer .footer-first-inner li a::before {
+    content: "\f0a4";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
+    color: #bb2929;
+}
+footer .footer-first-inner ul,
+footer .footer-forth-inner ul {
+    padding-left: 0;
+}
+
+footer .footer-first-inner li a:hover {
+    color: #fff !important;
+}
+
+footer .footer-forth-inner li {
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 25px;
+}
+footer .footer-forth-inner li a {
+    color: #8a929a;
+    font-size: 15px;
+    position: relative;
+    transition: 0.3s;
+}
+footer .footer-forth-inner li a i {
+    color: #bb2929;
+}
+footer .footer-forth-inner li a:hover {
+    color: #fff !important;
+}
+
+footer .copyright-container {
+    background: #031640;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 3em;
+}
+
+footer .copyright-left p {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+footer .copyright-left p a {
+    color: #bb2929;
+}
+
+footer .copyright-right h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+footer .copyright-right span a {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    color: #fff;
+    padding-top: 2px;
+    border-radius: 3px;
+}
+footer .disclaimer-box button {
+    color: #8a929a;
+    margin-top: 10px;
+}
+
+footer .disclaimer-box button:hover {
+    color: #8a929a;
+    text-decoration: underline;
+}

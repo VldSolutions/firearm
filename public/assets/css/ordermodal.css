@@ -1,0 +1,230 @@
+/* modal custom start */
+section.popupform * {
+  color: #fff;
+}
+
+section.popupform .modal-body {
+  padding: 2rem !important;
+  position: relative;
+}
+
+section.popupform .modal-body h2 span {
+  font-weight: 700;
+}
+
+section.popupform .modal-body h1 {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+section.popupform .modal-body h1 strong {
+  font-weight: 700;
+}
+
+section.popupform .modal-body h1::after {
+  content: "";
+  position: absolute;
+  height: 52px;
+  width: 53px;
+  background-image: url(../images/popdots.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 160px;
+  top: 75px;
+}
+
+section.popupform form {
+  border-right: 1px solid #fff;
+}
+
+section.popupform .modal-content {
+  border-radius: 23px !important;
+  background-color: var(--global-background-color);
+}
+
+section.popupform .modal-body {
+  background-image: -webkit-linear-gradient(125deg, #b91111 0%, #031640 100%);
+  border-radius: 25px;
+}
+
+section.popupform .modal-content .popupimgblock {
+  position: absolute;
+  bottom: -75px;
+  right: -200px;
+}
+
+
+section.popupform .modal-content .popupimgblock2 {
+  position: relative;
+  bottom: -55px;
+  left: -45px;
+}
+
+section.popupform .modal-content .popupimgblock2 img {
+  max-width: 100%;
+}
+
+section.popupform .modal-content .popupimgblock img {
+  width: 70%;
+  max-width: 100%;
+}
+
+.popupform h2 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+  padding-left: 0;
+  margin-bottom: 12px;
+  line-height: 35px;
+  margin-top: 0;
+}
+
+section.popupform .modal-close-btn {
+  border: var(--global-background-color) 3px solid;
+  background: var(--global-background-color);
+  border-radius: 72px;
+  text-align: center;
+  color: #fff;
+  box-shadow: #000 0 0 10px;
+  right: -14px;
+  top: -13px;
+  overflow: visible;
+  opacity: 1;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+}
+
+.popupform h2+p {
+  line-height: 19px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.popupform ul {
+  margin: 0;
+}
+
+.popupform ul li {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 8px -15px;
+  display: inline-block;
+}
+
+.popupform form i {
+  position: relative;
+  top: 34px;
+  left: 12px;
+  color: var(--global-background-color);
+}
+
+.popupform ul li textarea {
+  height: 120px;
+  resize: none;
+}
+
+section.popupform .modal-content {
+  cursor: grab;
+  /* width: 450px;
+          border-radius: 23px;
+          padding: 30px 30px;
+          overflow: visible;
+          border-bottom: #0467ff 5px solid;
+          border: 0;
+       */
+}
+
+.popupform form {
+  box-sizing: border-box;
+}
+
+.popupform form input[type="text"],
+.popupform form input[type="email"],
+.popupform form input[type="number"],
+.popupform form textarea {
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  padding: 10px 10px 10px 34px;
+  width: 100%;
+  border-radius: 25px;
+  font-size: 14px;
+  color: #999999;
+  box-shadow: none !important;
+  outline: none 0px !important;
+  /* margin-bottom: 15px; */
+}
+
+.popupform form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.popupform form input[type="submit"] {
+  background: var(--global-background-color);
+  /* background: linear-gradient(
+    90deg,
+    rgba(255, 201, 0, 1) 0%,
+    rgba(242, 58, 7, 1) 70%,
+    rgba(242, 58, 7, 1) 100%
+  ); */
+  color: #fff;
+  font-size: 18px;
+  border: var(--global-background-color) 2px solid;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 9px 10px;
+  letter-spacing: 1px;
+  outline: 0px none;
+  border-radius: 50px;
+  width: 100%;
+  transition: 0.3s;
+  margin-top: 25px;
+}
+
+.popupform form input[type="submit"]:hover {
+  background: var(--global-background-color);
+  border: 2px solid var(--footer-color);
+  color: var(--footer-color-hover);
+}
+
+/* modal custom end */
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+
+section.popupform .popupcontact {
+  padding: 10px 0px;
+}
+
+section.popupform .popupcontact ul {
+  padding-left: 1rem;
+}
+
+section.popupform .popupcontact ul li {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+section.popupform .popupcontact ul li:last-child {
+  padding: 0;
+  border: none;
+}
+
+section.popupform .popupcontact ul li span {
+  font-size: 21px;
+  font-weight: 600;
+  color: #fff;
+  line-height: normal;
+  display: block;
+  text-align: left;
+}
+
+section.popupform .popupcontact ul li a {
+  float: left;
+  color: #fff;
+}

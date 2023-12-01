@@ -1,0 +1,194 @@
+/* hamburger */
+.checkbox {
+    display: none;
+}
+
+header {
+    height: 80px;
+    background: #e4d2ba;
+
+}
+
+header .col-md-1 {
+    position: relative;
+}
+
+.buttonHamburger {
+    position: relative;
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    /* position: fixed; */
+    /* top: 5vh;
+    right: 0; */
+    top: 0px;
+    left: 11px;
+    z-index: 99999;
+    box-shadow: 0 1rem 3rem black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.backgroundHamburger {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    background-image: radial-gradient(#eac9a6, #946f55);
+    ;
+    /* background-image: url(/assets/images/body.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    z-index: 1000;
+
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navHamburger {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -60vw;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s;
+}
+
+.listHamburger {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.listHamburger li a {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Wallaxe', serif;
+    color: black;
+}
+
+.listHamburger li a:hover {
+    color: #fff;
+}
+
+.itemHamburger {
+    margin: 1rem;
+    font-size: 36px;
+}
+
+.listHamburger li:link,
+.listHamburger li:visited {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg,
+            transparent 0%,
+            transparent 50%,
+            white 50%);
+    background-size: 220%;
+    transition: all 0.4s;
+}
+
+.listHamburger li:hover,
+.listHamburger li:active {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* functionality */
+.checkbox:checked~.backgroundHamburger {
+    transform: scale(80);
+}
+
+.checkbox:checked~.navHamburger {
+    opacity: 1;
+    width: 100%;
+    right: 0;
+}
+
+/*  */
+/* styling hamb ICON */
+.iconHamburger {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iconHamburger,
+.iconHamburger::before,
+.iconHamburger::after {
+    width: 3rem;
+    height: 2px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.iconHamburger::before,
+.iconHamburger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all 0.2s;
+}
+
+.iconHamburger::before {
+    top: -0.8rem;
+}
+
+.iconHamburger::after {
+    top: 0.8rem;
+}
+
+.buttonHamburger:hover icon:before {
+    top: -1rem;
+}
+
+.buttonHamburger:hover icon::after {
+    top: 1rem;
+}
+
+.checkbox:checked+.buttonHamburger .iconHamburger {
+    background-color: transparent;
+}
+
+.checkbox:checked+.buttonHamburger .iconHamburger::before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.checkbox:checked+.buttonHamburger .iconHamburger::after {
+    top: 0;
+    transform: rotate(-135deg);
+}
+
+header .icon-section * {
+    color: #000;
+}
+
+header .icon-section {
+    text-align: center;
+    padding: 10px;
+}
+
+header .icon-section i {
+    font-size: 22px;
+}
+
+header .icon-section a {
+    color: #000;
+    font-family: 'Wallaxe', serif;
+    font-size: 22px;
+}
